@@ -27,3 +27,12 @@ li a:hover {
     display:block;
     
 }
+
+#main{
+    text-align: center;
+    font-family: 'Capriola';font-size: 32px;
+}
+#secondary{
+    text-align: center;
+    font-family: 'Capriola';font-size: 15px;
+}
