@@ -1,0 +1,24 @@
+#sidebar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+   display: block;
+   width: 200px;
+   text-decoration: none;
+   text-align: center;
+   color:azure;  
+
+}
+
+li a:hover {
+    background-color: #4d5f5b;
+    color: white;
+}
+
+#sideArea{
+    background-color: #9cbfc6;
+    width:200px;
+}
