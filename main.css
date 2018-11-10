@@ -9,7 +9,10 @@ li a {
    width: 200px;
    text-decoration: none;
    text-align: center;
-   color:azure;  
+   color:azure; 
+   border-style:solid;
+   border-width: 3px;
+    border-color: dimgrey;
 
 }
 
@@ -20,5 +23,7 @@ li a:hover {
 
 #sideArea{
     background-color: #9cbfc6;
-    width:200px;
+    width:205px;
+    display:block;
+    
 }
