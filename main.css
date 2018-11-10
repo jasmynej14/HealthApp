@@ -34,5 +34,13 @@ li a:hover {
 }
 #secondary{
     text-align: center;
+    font-family: 'Capriola';font-size: 25px;
+}
+p{
     font-family: 'Capriola';font-size: 15px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
 }
