@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-image: url("circles-dark.png");
+    background-color: azure;
 }
 
 #topnav{
@@ -22,6 +22,13 @@ body{
     font-size: 17px;
 }
 
+a:hover{
+    background-color: crimson;
+}
+
+a:active{
+    background-color: #ff813e;
+}
 #main{
     text-align: center;
     font-family: 'Capriola';font-size: 32px;
@@ -31,7 +38,8 @@ body{
     font-family: 'Capriola';font-size: 25px;
 }
 p{
-    font-family: 'Capriola';font-size: 15px;
+    font-family: 'Capriola';font-size: 20px;
+    text-align: center;
 }
 
 button{
@@ -41,4 +49,34 @@ button{
 
 #result{
     display:none;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#doctor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height:200px;
+}
+
+#rText{
+    text-align: center;
+    font-family: 'Capriola';
+    font-size: 15px;
+}
+#book{
+    width:95px;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
 }
