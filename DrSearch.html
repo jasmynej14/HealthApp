@@ -7,13 +7,11 @@
     </head>
     <body>
          <h1 id="main">Doctor Match</h1>
-        <div id="sideArea">
-            <ul id="sidebar">
-                <li><a href="AboutUs.html">About Us</a></li>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href="Create_Profile.html">Create Profile</a></li>
-                <li><a href="Doctor_Search.html">Doctor Search</a></li>
-            </ul>
+        <div id="topnav">
+            <a href = "index.html">Home</a>
+            <a href="Create_Profile.html">Create Profile</a>
+            <a href="DrSearch.html">Doctor Search</a>
+            <a href="AboutUs.html">About Us</a>
         </div>
         <form>
             <p> Type of illness/disease :</p>
@@ -40,7 +38,7 @@
   <br><br>
             
         
-        
+        <button type="button" id="showResult" onclick="showResult()">Search! </button>
         
         
         
@@ -48,5 +46,10 @@
         
         
         </form>
+        
+        <div id="result">
+            <h1>Result</h1>
+        
+        </div>
     </body>
 </html>
