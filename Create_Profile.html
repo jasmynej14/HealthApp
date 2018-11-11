@@ -3,7 +3,7 @@
         <title> Create Profile </title>
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
-        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     </head>
     <body>
          
@@ -18,10 +18,17 @@
         </div>
         <form>
             <p>Enter Name:</p>
-            <input type="text" id="nameInput">
-            <button type="button" onclick="valForm()">Submit</button>
-            <p id="result"></p>
+            <input type="text" ng-model="name" required>
+            
+            <p> Enter Date of Birth:</p>
+            <input type="datetime" required>
+            
+            <p> Enter City </p>
+            <input type="text" required>
+            
+             <input type="submit" value="Submit">
         </form>
+        <h2> {{name}}</h2>
     </body>
 
 

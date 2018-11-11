@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-image: linear-gradient(rgba(216, 216, 216, 0.5),rgba(216, 216, 216, 0.5)),url(DSWP11.jpg);
+}
 li a {
    display: block;
    width: 200px;
@@ -44,3 +46,4 @@ button{
     width: 60px;
     height: 30px;
 }
+
