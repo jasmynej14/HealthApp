@@ -6,7 +6,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     </head>
     <body>
-         
+
         <h1 id="main">Create A Profile</h1>
         <div id="topnav">
             <a href = "index.html">Home</a>
@@ -14,22 +14,24 @@
             <a href="DrSearch.html">Doctor Search</a>
             <a href="AboutUs.html">About Us</a>
         </div>
-        <form>
+        <form action="" onsubmit="return myFunction()" >
             <p>Enter Name:</p>
-            <input type="text" ng-model="name" required>
-            
+            <input type="text" id="name" name="name" required>
+
             <p> Enter Date of Birth:</p>
-            <input type="datetime" required>
-            
+            <input type="date" id="dateOfBirth" name="dateOfBirth"
+            value="2018-07-22"
+            min="1900-01-01" max="2018-11-11" required>
+
             <p> Enter City:</p>
-            <input type="text" required>
-            
+            <input type="text" id="city" name="city" required>
+
             <p> Enter ZipCode: </p>
-            <input type="number" required>
-            
+            <input type="number" id="zipcode" name = "zipcode" required>
+
             <p> Enter State </p>
-            <input type="text" required>
-            
+            <input type="text" id="state" name = "state"required>
+
             <p>Any Pre-Existing Conditions? </p>
             <input type="checkbox" name="pre1" value="cancer">Cancer
             <br>
@@ -40,10 +42,22 @@
             <input type="checkbox" name="pre4" value="pregnancy">Pregnancy
             <br>
             <input type="checkbox" name="pre4" value="diabetes">Diabetes
-            
+
              <input type="submit" value="Submit">
         </form>
-        
+
+        <script>
+        function myFunction() {
+          var name = document.getElementById("name").value;
+          var dateOfBirth = document.getElementById("dateOfBirth").value;
+          var city = document.getElemenById("city").value;
+          var zipcode = document.getElemenById("zipcode").value;
+          var state = document.getElemenById("state").value;
+          submitO
+
+          var tempProfile = [name, dateOfBirth, city, zipcode, state];
+        }
+        </script>
     </body>
 
 
